@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "author": "",
+  "dependencies": {
+    "@microsoft/signalr": "^5.0.9",
+    "react-toastify": "^8.0.2"
+  }
+}

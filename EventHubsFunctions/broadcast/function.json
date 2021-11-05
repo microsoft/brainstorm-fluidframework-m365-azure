@@ -1,0 +1,23 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "eventHubMessages",
+      "direction": "in",
+      "eventHubName": "event-hub",
+      "connection": "AzureEventHubConnectionString",
+      "cardinality": "many",
+      "consumerGroup": "local"
+    },
+    {
+      "name": "signalRMessages",
+      "hubName": "serverless",
+      "connectionStringSetting": "AzureSignalRConnectionString",
+      "direction": "out",
+      "type": "signalR",
+      "parameterNames": [
+        "message"
+      ]
+    }
+  ]
+}
