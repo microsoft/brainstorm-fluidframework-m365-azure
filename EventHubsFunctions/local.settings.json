@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=presenceblob;AccountKey=N1DXVOoTA/HBIebQ9zDjNx1yzpbwP3M2Ycfu8niIlkyat2C6g5XkUqbquogdMlO2n4G76yeHhWDUCM5hs2U5vA==;EndpointSuffix=core.windows.net",
+    "AzureSignalRConnectionString": "Endpoint=https://presencesignalr.service.signalr.net;AccessKey=Jdh/wfsjGqgCBNqVWsoOgMdt2Xgm7UEyjK+cwOPFSko=;Version=1.0;",
+    "AzureEventHubConnectionString": "Endpoint=sb://event-hubs-presence.servicebus.windows.net/;SharedAccessKeyName=Local;SharedAccessKey=zzFjie33y6p7RPTP+jOoIo/JMDMHw0VIHQA6LrIhHUU=;EntityPath=event-hub"
+  },
+  "Host": {
+    "CORS": "http://localhost:3000",
+    "CORSCredentials": true
+  }
+}
