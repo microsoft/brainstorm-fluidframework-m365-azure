@@ -2,9 +2,9 @@
   "IsEncrypted": false,
   "Values": {
     "FUNCTIONS_WORKER_RUNTIME": "node",
-***REMOVED***
-***REMOVED***
-***REMOVED***
+    "AzureWebJobsStorage": "",
+    "AzureSignalRConnectionString": "",
+    "AzureEventHubConnectionString": ""
   },
   "Host": {
     "CORS": "http://localhost:3000",
