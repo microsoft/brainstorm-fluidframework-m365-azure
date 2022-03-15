@@ -8,7 +8,7 @@ function SignalRConnection() {
 
   useEffect(() => {
     //SignalR Connection
-    const apiBaseUrl = "https://notifications-function.azurewebsites.net/api";
+    const apiBaseUrl = process.env.REACT_APP_SIGNALR_FUNCTIONS_ENDPOINT as string;
     const connection = new signalR.HubConnectionBuilder()
           .withUrl(apiBaseUrl)
           .configureLogging(signalR.LogLevel.Information)

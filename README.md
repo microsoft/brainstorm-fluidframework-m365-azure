@@ -31,7 +31,7 @@ To register an app follow the steps below:
     - Name: *Presence Subscription*
     - Supported account types: *Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)*
     - Redirect URI type: *Web* and URI: *https://global.consent.azure-apim.net/redirect*
-    - Select **Create**.
+    - Select **Register**.
 1. Select **Authentication** tab, enable `Access tokens` & `ID tokens` and **Save**.
 1. Select **API permissions** tab, select **Add a permission**, choose *Microsoft Graph* and *Delegated Permissions*, add `Presence.Read`, `Presence.Read.All` in the app permissions.
 1. Select **Certificates & Secrets** tab, select **New client secret** and copy the `Client Secret`.

@@ -1,6 +1,6 @@
 {
   "name": "learn-together-brainstorm",
-  "version": "0.49.2",
+  "version": "0.57.2",
   "description": "A simple brainstorming app built using Create React App plus a Fluid data model",
   "homepage": "https://fluidframework.com",
   "repository": "microsoft/FluidExamples",
@@ -42,9 +42,9 @@
   "dependencies": {
     "@fluentui/react": "^8.29.2",
     "@fluentui/react-icons-mdl2": "^1.2.1",
-    "fluid-framework": "^0.49.2",
-    "@fluidframework/azure-client": "^0.49.2",
-    "@fluidframework/test-runtime-utils": "^0.49.2",
+    "fluid-framework": "^0.57.2",
+    "@fluidframework/azure-client": "^0.57.2",
+    "@fluidframework/test-runtime-utils": "^0.57.2",
     "@microsoft/mgt-element": "^2.3.0",
     "@microsoft/mgt-msal2-provider": "^2.3.0",
     "@microsoft/mgt-react": "^2.3.0",
