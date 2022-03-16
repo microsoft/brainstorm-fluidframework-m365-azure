@@ -9,6 +9,7 @@ on:
     branches:
       - main
       
+###### ENV VARS NEEDED FOR REACT ######
 env:
   REACT_APP_TENANT_ID: ${{ secrets.REACT_APP_TENANT_ID }}
   REACT_APP_PRIMARY_KEY: ${{ secrets.REACT_APP_PRIMARY_KEY }}
