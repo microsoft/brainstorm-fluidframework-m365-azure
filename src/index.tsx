@@ -21,7 +21,7 @@ import SignalRConnection from "./SignalRConnection";
 import { CacheService } from '@microsoft/mgt-react';
 
 Providers.globalProvider = new Msal2Provider({
-    clientId: '259fb0fd-a369-4003-a93c-66c8405567f3'
+    clientId: process.env.REACT_APP_AAD_CLIENT_ID as string
 });
 
 CacheService.config.presence.invalidationPeriod = 5000; // 10 seconds
