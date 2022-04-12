@@ -5,6 +5,12 @@ in a list and are sorted based upon the number likes.
 
 Microsoft Graph functionality is also integrated in the `m365` branch to display user profiles and integrate user presence.
 
+## Video Series
+
+A series of videos discussing this application can be [found on YouTube](https://www.youtube.com/playlist?list=PLWZJrkeLOrbZtIXX060rOLoKtRNcMIi7U).
+
+
+
 ## Integrating real-time presence change notifications 
 
 The Brainstorm app receives the Microsoft Graph Change Notifications though Azure Event Hubs. To receive presence changes in real-time, Azure Functions and SignalR Service are communicating with Azure Event Hubs.
